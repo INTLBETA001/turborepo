@@ -352,6 +352,7 @@ function findExecutableOnPath(name: string) {
       return executable;
     }
   }
+  return undefined;
 }
 
 function findTurbo(
